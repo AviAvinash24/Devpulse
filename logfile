@@ -1,0 +1,9 @@
+2026-06-13 02:13:14.718 IST [24759] LOG:  starting PostgreSQL 18.2 on aarch64-unknown-linux-android, compiled by Android (13989888, +pgo, +bolt, +lto, +mlgo, based on r563880c) clang version 21.0.0 (https://android.googlesource.com/toolchain/llvm-project 5e96669f06077099aa41290cdb4c5e6fa0f59349), 64-bit
+2026-06-13 02:13:14.719 IST [24759] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2026-06-13 02:13:14.721 IST [24759] LOG:  listening on Unix socket "/data/data/com.termux/files/usr/tmp/.s.PGSQL.5432"
+2026-06-13 02:13:14.728 IST [24767] LOG:  database system was shut down at 2026-06-13 02:11:38 IST
+2026-06-13 02:13:14.735 IST [24759] LOG:  database system is ready to accept connections
+2026-06-13 02:16:08.229 IST [26742] ERROR:  database "devpulse" already exists
+2026-06-13 02:16:08.229 IST [26742] STATEMENT:  CREATE DATABASE devpulse;
+2026-06-13 02:18:14.826 IST [24765] LOG:  checkpoint starting: time
+2026-06-13 02:19:53.641 IST [24765] LOG:  checkpoint complete: wrote 985 buffers (6.0%), wrote 3 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=98.732 s, sync=0.057 s, total=98.816 s; sync files=312, longest=0.002 s, average=0.001 s; distance=4679 kB, estimate=4679 kB; lsn=0/1BF5AA0, redo lsn=0/1BF5A10
